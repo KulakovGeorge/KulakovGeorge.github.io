@@ -1,2 +1,2 @@
-# kulakovgeorgy.github.io
+# Георгий Кулаков
 Мой первый сайт
