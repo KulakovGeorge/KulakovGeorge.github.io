@@ -1,0 +1,270 @@
+.info
+{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background: url(../media/fontexno.jpg) no-repeat;
+  background-size: 100% 1000px;
+  padding: 45px;
+}
+.info h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.linebotton
+{
+    display: inline-block;
+    width: 175px;
+    height: 1px;
+    border: 1px solid darkblue;
+    margin-bottom: 25px;
+}
+.info .foto_info
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+}
+.info p
+{
+  width: 50%;
+  text-align: justify;
+  color: black;
+  margin: 25px 25%;
+}
+.info input
+{
+  width: 150px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+}
+.info input:hover
+{
+  background-color: black;
+  color: white;
+}
+
+.skill
+{
+  width: 100%;
+  border-bottom: 4px solid black;
+  text-align: center;
+  background: url(../media/fontexno.jpg) no-repeat;
+  background-position: 0 -500px;
+  background-size: 100% 1000px;
+  padding-top: 35px;
+}
+.skill h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.skill .list_skill
+{
+    width: 60%;
+    height: 300px;
+    border: 1px dashed black;
+    margin-left: 20%;
+    margin-bottom: 25px;
+}
+.skill .list_skill .box_skill
+{
+    width: 200px;
+    height: 270px;
+    margin: 15px 15px;
+    text-align: center;
+    float: left;
+}
+.box_skill>.logo
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 0px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+h3.name_skill
+{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 5px 0px;
+    color: black;
+}
+
+.portfolio
+{
+  width: 100%;
+  height: 550px;
+  border-bottom: 4px solid black;
+  text-align: center;
+  background: url(../media/team.jpg) no-repeat;
+  background-size: 100% 550px;
+  padding-top: 35px;
+}
+.portfolio h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.portfolio .IMG_PROJ
+{
+    width: 75%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: white;
+}
+.info_proj
+{
+    width: 75%;
+    height: 100px;
+    display: inline-block;
+}
+.info_proj>.proj_kontact
+{
+    width: 35%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px 0 0 15px;
+    background-color: white;
+    float: left;
+}
+.info_proj>.proj_ops
+{
+    width: 65%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 0 15px 15px 0;
+    background-color: white;
+    float: left;
+}
+
+.stat
+{
+    width: 100%;
+    height: 450px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    background: url(../media/statsfon.jpg);
+    padding-top: 35px;
+    background-size: 100% 450px;
+}
+.stat h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+.stat .box_stat
+{
+    width: 80vw;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.stat .box_stat .itemstat
+{
+    width: 18vw;
+    height: 275px;
+    margin: 15px 0 0 1.5vw;
+    float: left;
+    border: 1px solid black;
+}
+
+.comment
+{
+    width: 100%;
+    height: 500px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    background:url(../media/commfon.jpg) no-repeat;
+    background-size: 100% 500px;
+    padding-top: 35px;
+}
+.comment h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+.contact
+{
+    width: 100%;
+    height: 500px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    background-color: #344051;
+    padding-top: 35px;
+}
+.contact h2
+{
+    line-height: 40px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.contact p {color: white;}
+.contact .list_cont
+{
+    width: 600px;
+    height: 75px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.contact .list_cont .cont_box
+{
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+}
+.contact p.mes_p
+{
+    font-size: 18px;
+    color: white;
+}
+.cont_box .logo__gps { display: inline-block; width: 30px; height: 30px; background-color: white; margin-bottom: 10px; }
+.cont_box .logo_mail { display: inline-block; width: 30px; height: 30px; background-color: white; margin-bottom: 10px; }
+.cont_box .logo_phon { display: inline-block; width: 30px; height: 30px; background-color: white; margin-bottom: 10px; }
+.cont_box h3 { color: white; }
+.contact .message
+{
+    width: 700px;
+    height: 200px;
+    display: inline-block;
+}
+div.message input
+{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    margin: 15px 15px;
+    text-align: center;
+}
+div.message textarea
+{
+    display: inline-block;
+    width: 634px;
+    height: 120px;
+    font-size: 18px;
+    text-align: justify;
+}
